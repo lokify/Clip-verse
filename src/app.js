@@ -11,7 +11,6 @@ app.use(
   })
 );
 app.use(express.json({ limit: "16kb" }));
-console.log("heyy yo whats up");
 
 app.use(express.urlencoded({ extended: true, limit: "16kb" }));
 export { app };
